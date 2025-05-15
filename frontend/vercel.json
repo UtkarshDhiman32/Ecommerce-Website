@@ -4,5 +4,11 @@
         "source": "/(.*)",
         "destination": "/"
       }
-    ]
+    ],
+
+    "build": {
+    "env": {
+      "NODE_VERSION": "20.x"
+    }
+  }
   }
