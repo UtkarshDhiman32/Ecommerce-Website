@@ -4,12 +4,14 @@ import order_icon from './order_icon.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.svg'
 import logo_new from './logo_new.png'
+import Shopperad from './Shopperad.png'
 export const assets = {
     logo,
     add_icon,
     order_icon,
     upload_area,
     parcel_icon,
-    logo_new
+    logo_new,
+    Shopperad,
 }
 
