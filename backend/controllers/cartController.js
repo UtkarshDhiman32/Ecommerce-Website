@@ -89,7 +89,7 @@ const getUserCart = async (req, res) => {
        const cartData = userData.cartData 
        res.json({ success: true, cartData })
     } catch (error) {
-       console.log(error);
+       console.log(error); 
        res.json({ success: false, message: error.message })
     }
    }
